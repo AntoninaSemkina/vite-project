@@ -8,7 +8,6 @@ const MainPage = () => {
     <div className={style.container}>
       <Header />
       <Block1_Head />
-      main page
     </div>
   );
 };

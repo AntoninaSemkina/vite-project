@@ -1,7 +1,7 @@
 @import url("../../var.css");
 
 .container{
-    width: 80%;
+    width: 90%;
     position: relative;
     display: flex;
     justify-content: space-between;
