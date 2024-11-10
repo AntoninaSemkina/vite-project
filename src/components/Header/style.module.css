@@ -1,0 +1,11 @@
+@import url("../../var.css");
+
+.container{
+    width: 80%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    top:0;
+    padding: 10px 10px 0px 10px;
+    margin: auto;
+}

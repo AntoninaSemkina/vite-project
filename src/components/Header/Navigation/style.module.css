@@ -1,0 +1,28 @@
+@import url("../../../var.css");
+
+.container{
+    display: flex;
+    font-family: "Manrope";
+    color:#AFB0B6;
+}
+.btn1,
+.btn2,
+.btn3,
+.btn4{
+    background-color: black;
+    border-radius: 0px;
+    border-style: var(--main-txt-color);
+    width: 150px;
+    height: 90px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Manrope";  
+    border: 1px solid #1C1C21;
+}
+.btn1{
+    border-radius: 10px 0px 0px 0px;
+    background-color: #131316 ;
+}
+.btn4{
+    border-radius: 0px 10px 0px 0px;
+}
