@@ -47,7 +47,7 @@ const RunningContent: React.FC = () => {
       <div className={style.itemsMarquee}>
         {/* Дублирование для непрерывной прокрутки */}
         {[...Array(2)].map((_, index) => (
-          <div key={index} className={style.marqueeContent}>
+          <div key={index}>
             <span className={style.item}>
               <img className={style.img} src={Vector} alt="" />
               EVENT PHOTOGRAPHY
