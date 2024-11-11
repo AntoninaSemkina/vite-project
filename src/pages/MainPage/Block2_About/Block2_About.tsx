@@ -1,11 +1,13 @@
 import React from "react";
 import style from "./style.module.css";
-import RunningLine from "../Block1_Head/RunningLine/RunningLine";
+import MainBlock from "./MainBlock/MainBlock";
+import HeadBlock from "./HeadBlock/HeadBlock";
 
-const Block1_Head = () => {
+const Block1_Head: React.FC = () => {
   return (
     <div className={style.container}>
-      <RunningLine />
+      <HeadBlock />
+      <MainBlock />
     </div>
   );
 };

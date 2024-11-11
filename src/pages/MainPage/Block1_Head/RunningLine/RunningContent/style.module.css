@@ -24,8 +24,7 @@ span {
 .itemsMarquee {
   flex-shrink: 0;
   display: flex;
-  gap: 20px;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
   animation: marquee 20s linear infinite;
 }
@@ -34,11 +33,11 @@ span {
   border-radius: 6px;
   font-size: 27px;
   font-weight: bold;
-  margin: 10px 0;
-  transition: all 0.1s ease-in-out;
+  margin: 20px 0px 20px 20px;
+  transition: all 0.5s ease-in-out;
 }
 .item:hover {
-  transform: scale(1.05);
+  transform: scale(1);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 } 
 @keyframes marquee {
