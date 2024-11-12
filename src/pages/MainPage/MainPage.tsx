@@ -5,6 +5,9 @@ import Block1_Head from "./Block1_Head/Block1_Head";
 import Block2_About from "./Block2_About/Block2_About";
 import Block3_Services from "./Block3_Services/Block3_Services";
 import Block4_Portfolio from "./Block4_Portfolio/Block4_Portfolio";
+import Block5_FAQ from "./Block5_FAQ/Block5_FAQ";
+import Block6_Testimonials from "./Block6_Testimonials/Block6_Testimonials";
+
 const MainPage: React.FC = () => {
   return (
     <div className={style.container}>
@@ -13,8 +16,8 @@ const MainPage: React.FC = () => {
       <Block2_About />
       <Block3_Services />
       <Block4_Portfolio />
-      {/* <Block5_FAQ /> */}
-      {/* <Block6_Testimonials /> */}
+      <Block5_FAQ />
+      <Block6_Testimonials />
       {/* <Footer/> */}
     </div>
   );

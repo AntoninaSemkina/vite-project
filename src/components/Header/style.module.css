@@ -1,11 +1,13 @@
 @import url("../../var.css");
 
-.container{
-    width: 90%;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    top:0;
-    padding: 10px 10px 0px 10px;
-    margin: auto;
+.container {
+  width: 90%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  padding: 10px 10px 0px 10px;
+  margin: auto;
+  border-left: 1px solid #2f2f37;
+  border-right: 1px solid #2f2f37;
 }

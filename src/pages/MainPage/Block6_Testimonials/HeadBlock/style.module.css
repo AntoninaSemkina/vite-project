@@ -3,7 +3,6 @@
   justify-content: space-between;
   width: 100%;
   margin: 150px 0px 50px 0px;
-  border-bottom: 1px solid #2f2f37;
 }
 .block1 {
   width: 60%;
@@ -14,7 +13,7 @@
   height: 82px;
   display: flex;
   justify-content: space-between;
-  margin: auto 0;
+  margin-top: auto; /* разместить в нижней части контейнера */
 }
 .block1_el1 {
   font-size: 20px;
@@ -26,6 +25,18 @@
   font-size: 58px;
   font-family: "Manrope";
   font-weight: 600;
+}
+.block1_el3 {
+  font-size: 18px;
+  font-family: "Manrope";
+  font-weight: 400;
+  color: #666666;
+}
+.block1_el4 {
+  font-size: 28px;
+  font-family: "Manrope";
+  font-weight: 500;
+  color: #cacace;
 }
 .btn1,
 .btn2 {
@@ -53,7 +64,6 @@
   width: 40%;
   margin: auto;
 }
-
 .btn3 {
   border-radius: 10px;
   border: 1px solid;
