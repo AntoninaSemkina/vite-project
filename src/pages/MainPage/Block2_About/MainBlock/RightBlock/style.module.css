@@ -10,16 +10,18 @@
     vertical-align: middle;
 }
 .container1{
-    width:90%;
+    width:100%;
     margin: auto;
     border-radius: 20px 20px 0px 0px ;
     border: 1px solid #1C1C21;
+    float: right;
     }
 .container2{
-    width:90%;
+    width:100%;
     margin: auto;
     border-radius: 0px 0px 20px 20px ;
     border: 1px solid #1C1C21;
+    float: right;
 }    
 .block1,
 .block2{
