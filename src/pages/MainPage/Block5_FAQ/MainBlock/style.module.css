@@ -1,5 +1,58 @@
-.container{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+.leftContainer,
+.rightContainer {
+  width: 50%;
+}
+.block1_l,
+.block2_l,
+.block3_l,
+.block4_l {
+  width: 100%;
+  border-top: 1px solid #2f2f37;
+  border-bottom: 1px solid #2f2f37;
+  border-right: 1px solid #2f2f37;
+}
+.block1_r,
+.block2_r,
+.block3_r,
+.block4_r {
+  width: 100%;
+  border-top: 1px solid #2f2f37;
+  border-bottom: 1px solid #2f2f37;
+}
+.btn {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: 1px solid #1c1c21;
+  background-color: var(--main);
+  margin: 25px;
+}
+.span {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Manrope";
+  color: #afb0b6;
+}
+.description {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Manrope";
+  color: #797c86;
+  margin: 25px;
+}
+.icon {
+  width: 12px;
+  height: 6px;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px;
+  align-items: center; /* Центрирует содержимое по вертикали */
 }
