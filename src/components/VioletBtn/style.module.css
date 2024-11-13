@@ -1,0 +1,14 @@
+.container {
+}
+.btn {
+  background-color: #4a2ced;
+  border-radius: 100px;
+  width: 130px;
+  height: 66px;
+  margin: 10px 10px 10px 10px;
+  box-shadow: 4px 4px 17.4px 0px #ffffff47 inset;
+  border: 1px solid #1c1c21;
+}
+.img {
+  width: 25%;
+}

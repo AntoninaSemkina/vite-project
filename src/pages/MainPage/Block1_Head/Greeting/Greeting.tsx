@@ -2,6 +2,7 @@ import React from "react";
 import style from "./style.module.css";
 import GreetingIMG from "../../../../images/GreetingIMG.png";
 import Stroke from "../../../../images/Stroke.png";
+import VioletBtn from "../../../../components/VioletBtn/VioletBtn";
 
 const Greeting = () => {
   return (
@@ -21,9 +22,7 @@ const Greeting = () => {
       <div className={style.block3}>
         <div className={style.block3_el}>
           <div className={style.block3_el1}>LET'S</div>
-          <button className={style.btn}>
-            <img className={style.img} src={Stroke} alt="" />
-          </button>
+          <VioletBtn />
         </div>
         <div className={style.block3_el3}>WORK TOGETHER</div>
       </div>

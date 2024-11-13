@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./style.module.css";
-import Vector from "../../../../../images/Vector.png";
+import Vector from "../../../images/Vector.png";
 
 const RunningContent: React.FC = () => {
   return (

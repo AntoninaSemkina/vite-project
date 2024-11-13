@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./style.module.css";
-import Stroke from "../../../../../images/Stroke.png";
 import Vector_grey from "../../../../../images/Vector_grey.png";
+import VioletBtn from "../../../../../components/VioletBtn/VioletBtn";
 
 const LeftBlock: React.FC = () => {
   return (
@@ -9,9 +9,7 @@ const LeftBlock: React.FC = () => {
       <div className={style.block1}>
         <div className={style.block1_el}>
           <div className={style.block1_el1}>EVENTS</div>
-          <button className={style.btn}>
-            <img className={style.img} src={Stroke} alt="" />
-          </button>
+          <VioletBtn />
         </div>
         <div className={style.block1_el2}>
           Our event photography service is dedicated to capturing the magic of
