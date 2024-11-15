@@ -1,13 +1,13 @@
 import React from "react";
 import style from "./style.module.css";
-import MainBlock from "./MainBlock/MainBlock";
 import HeadBlock from "./HeadBlock/HeadBlock";
+import App from "./MainBlock/App";
 
 const Block5_FAQ: React.FC = () => {
   return (
     <div className={style.container}>
       <HeadBlock />
-      <MainBlock />
+      <App />
     </div>
   );
 };

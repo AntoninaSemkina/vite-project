@@ -8,23 +8,23 @@ const SocialMedia: React.FC = () => {
   return (
     <div className={style.container}>
       <div className={style.block1}>
-        <button className={style.btn_social}>
+        <a href="/" target="_blank" className={style.a_social}>
           <img
             className={style.icon_social}
             src={Icon_facebook}
-            alt="Facebook"
+            alt="facebook"
           />
-        </button>
-        <button className={style.btn_social}>
+        </a>
+        <a href="/" target="_blank" className={style.a_social}>
           <img className={style.icon_social} src={Icon_twitter} alt="twitter" />
-        </button>
-        <button className={style.btn_social}>
+        </a>
+        <a href="/" target="_blank" className={style.a_social}>
           <img
             className={style.icon_social}
             src={Icon_linkedin}
             alt="linkedin"
           />
-        </button>
+        </a>
       </div>
     </div>
   );

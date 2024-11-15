@@ -1,3 +1,4 @@
+@import url("../../../../var.css");
 .container {
   display: flex;
   justify-content: space-between;
@@ -24,26 +25,28 @@
   font-size: 22px;
   font-weight: 500;
   height: 25%;
-  color: #62646c;
+  color: var(--h3);
 }
 .block1_el2 {
   width: 100%;
   font-family: "Manrope";
   font-size: 80px;
   font-weight: 600;
-  color: #e4e4e6;
+  color: var(--h2);
 }
 .block3_el1 {
   width: 25%;
   font-family: "Manrope";
   font-size: 58px;
   font-weight: 600;
+  color: var(--h2);
 }
 .block3_el3 {
   width: 100%;
   font-family: "Manrope";
   font-size: 58px;
   font-weight: 600;
+  color: var(--h2);
 }
 .block3_el {
   display: flex;

@@ -1,3 +1,4 @@
+@import url("../../../../../var.css");
 .container {
   width: 50%;
   text-align: left;
@@ -13,14 +14,14 @@
   width: 100%;
   margin: auto;
   border-radius: 20px 20px 0px 0px;
-  border: 1px solid #1c1c21;
+  border: 1px solid var(--border-line);
   float: right;
 }
 .container2 {
   width: 100%;
   margin: auto;
   border-radius: 0px 0px 20px 20px;
-  border: 1px solid #1c1c21;
+  border: 1px solid var(--border-line);
   float: right;
 }
 .block1,
@@ -45,6 +46,7 @@ span {
   font-family: "Manrope";
   font-size: 18px;
   font-weight: 400;
+  color: var(--block-info1);
 }
 .block2_el2 {
   width: 100%;
@@ -70,22 +72,23 @@ span {
 .block2_el3_btn2 {
   border-radius: 10px;
   border: 1px solid;
-  background: #1c1c21;
+  background: var(--button-bg);
   width: 220px;
   height: 60px;
   font-size: 18px;
   font-weight: 500;
   line-height: 27px;
   font-family: "Manrope";
-  border: 1px solid #1c1c21;
+  border: 1px solid var(--border-line);
+  color: var(--button-txt);
 }
 
 .btn_social {
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  background-color: #1c1c21;
-  border: 1px solid #1c1c21;
+  background-color: var(--button-bg);
+  border: 1px solid var(--border-line);
 }
 .icon_social {
   width: 20px;
@@ -95,11 +98,11 @@ span {
   font-size: 18px;
   font-weight: 500;
   font-family: "Manrope";
-  color: #e4e4e6;
+  color: var(--h2);
 }
 .info {
   font-size: 18px;
   font-weight: 400;
   font-family: "Manrope";
-  color: #afb0b6;
+  color: var(--main-txt-color);
 }

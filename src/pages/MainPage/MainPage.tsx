@@ -8,6 +8,7 @@ import Block4_Portfolio from "./Block4_Portfolio/Block4_Portfolio";
 import Block5_FAQ from "./Block5_FAQ/Block5_FAQ";
 import Block6_Testimonials from "./Block6_Testimonials/Block6_Testimonials";
 import Block7 from "./Block7/Block7";
+import Footer from "../../components/Footer/Footer";
 
 const MainPage: React.FC = () => {
   return (
@@ -20,7 +21,7 @@ const MainPage: React.FC = () => {
       <Block5_FAQ />
       <Block6_Testimonials />
       <Block7 />
-      {/* <Footer/> */}
+      <Footer />
     </div>
   );
 };

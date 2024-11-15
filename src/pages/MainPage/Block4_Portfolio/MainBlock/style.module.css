@@ -1,3 +1,5 @@
+@import url("../../../../var.css");
+
 .container {
   width: 100%;
   display: flex;
@@ -32,20 +34,20 @@
   font-size: 20px;
   font-family: "Manrope";
   font-weight: 500;
-  color: #cacace;
+  color: var(--block-title);
 }
 .block1_el2 {
   font-size: 18px;
   font-family: "Manrope";
   font-weight: 400;
-  color: #797c86;
+  color: var(--block-title-grey);
 }
 .block1_right {
   display: flex;
   justify-content: right;
   width: 40;
   margin: auto 0;
-  border-bottom: 1px solid #2f2f37;
+  border-bottom: 1px solid var(--border-line);
 }
 .block1_btn {
   display: flex;
@@ -53,7 +55,7 @@
   background: var(--main-);
   border-image-source: linear-gradient(
     135.66deg,
-    #2f2f37 28.87%,
+    var(--border-line) 28.87%,
     rgba(47, 47, 55, 0) 76.42%
   );
   gap: 10px;

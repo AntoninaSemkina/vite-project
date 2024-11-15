@@ -1,0 +1,57 @@
+@import url("../../../../../var.css");
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  border-radius: 5%;
+  background: var(--main-bg-color) url("../../../../../images/Abstract.png")
+    no-repeat center;
+  background-size: cover; /* Изображение будет покрывать весь блок */
+  border-radius: 5%;
+}
+.box1 {
+  align-items: center; /* Центрирует содержимое по вертикали */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.box1_el1 {
+  display: flex;
+  flex-direction: column; /* Разместить элементы в строку */
+  gap: 10px; /* Отступ между name и location */
+  margin: 20px;
+}
+.box1_el2 {
+  width: 40%;
+}
+.name {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Manrope";
+  color: var(--h2);
+  text-align: left;
+}
+.stars {
+  margin: 20px;
+}
+.reviewText {
+  display: flex;
+  margin: 20px;
+  gap: 10px;
+  align-items: center; /* Центрирует содержимое по вертикали */
+  text-align: left;
+}
+.location {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Manrope";
+  color: var(--h3);
+  text-align: left;
+}
+span {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Manrope";
+  color: var(--h2);
+}

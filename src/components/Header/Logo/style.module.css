@@ -1,7 +1,7 @@
-/* @import url("../../../var.css"); */
-
+@import url("../../../var.css");
 .logo {
   font-size: 40px;
   font-family: "Manrope";
-  margin-top: auto 0;
+  color: var(--main-txt-color);
+  margin-top: 10px;
 }

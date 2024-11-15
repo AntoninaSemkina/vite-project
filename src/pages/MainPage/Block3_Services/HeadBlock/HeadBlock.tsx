@@ -7,8 +7,8 @@ const HeadBlock: React.FC = () => {
   return (
     <div className={style.container}>
       <div className={style.block1}>
-        <div className={style.block1_el1}>SERVICES</div>
-        <div className={style.block1_el2}>MY PHOTOGRAPHY SERVICES</div>
+        <h3 className={style.block1_el1}>SERVICES</h3>
+        <h2 className={style.block1_el2}>MY PHOTOGRAPHY SERVICES</h2>
       </div>
       <div className={style.block2}>
         <div className={style.block2_el1}>

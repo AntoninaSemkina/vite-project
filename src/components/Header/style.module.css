@@ -8,6 +8,11 @@
   top: 0;
   padding: 10px 10px 0px 10px;
   margin: auto;
-  border-left: 1px solid #2f2f37;
-  border-right: 1px solid #2f2f37;
+  border-left: 1px solid var(--border-line);
+  border-right: 1px solid var(--border-line);
+}
+.container2 {
+  display: flex;
+  position: absolute;
+  right: 0;
 }

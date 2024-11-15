@@ -1,22 +1,22 @@
-
-.container{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    margin: 150px 0px 50px 0px ;
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 150px 0px 50px 0px;
 }
-.block1{
-    width: 60%;
-    text-align: left;
+.block1 {
+  width: 60%;
+  text-align: left;
 }
-.block1_el1{
-    font-size: 20px;
-    font-family: "Manrope";
-    font-weight: 600;
-    color: #797C86;
+.block1_el1 {
+  font-size: 20px;
+  font-family: "Manrope";
+  font-weight: 600;
+  color: var(--h3);
 }
-.block1_el2{
-    font-size: 58px;
-    font-family: "Manrope";
-    font-weight: 600;
+.block1_el2 {
+  font-size: 58px;
+  font-family: "Manrope";
+  font-weight: 600;
+  color: var(--h2);
 }

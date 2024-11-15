@@ -1,15 +1,14 @@
 import React from "react";
 import style from "./style.module.css";
 import GreetingIMG from "../../../../images/GreetingIMG.png";
-import Stroke from "../../../../images/Stroke.png";
 import VioletBtn from "../../../../components/VioletBtn/VioletBtn";
 
-const Greeting = () => {
+const Greeting: React.FC = () => {
   return (
     <div className={style.container}>
       <div className={style.block1}>
         <div className={style.block1_el1}>STUNNING PHOTOGRAPHY BY</div>
-        <div className={style.block1_el2}>DAMIEN BRAUN</div>
+        <h1 className={style.block1_el2}>DAMIEN BRAUN</h1>
       </div>
       <div className={style.block2}>
         <img
