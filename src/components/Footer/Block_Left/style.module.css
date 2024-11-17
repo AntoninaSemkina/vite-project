@@ -6,3 +6,8 @@
 .img {
   width: 100%;
 }
+@media screen and (max-width: 1440px) {
+  .container {
+    height: 350px;
+  }
+}

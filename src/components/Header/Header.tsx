@@ -3,7 +3,6 @@ import Navigation from "./Navigation/Navigation.tsx";
 import Logo from "./Logo/Logo.tsx";
 import ContactMe from "./ContactMe/ContactMe.tsx";
 import style from "./style.module.css";
-import ThemeToggle from "../ThemeButton/ThemeButton.tsx";
 
 const Header: React.FC = () => {
   return (
@@ -11,9 +10,6 @@ const Header: React.FC = () => {
       <Logo />
       <Navigation />
       <ContactMe />
-      <div className={style.container2}>
-        <ThemeToggle />
-      </div>
     </div>
   );
 };

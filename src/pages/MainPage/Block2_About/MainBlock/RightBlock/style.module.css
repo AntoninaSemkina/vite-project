@@ -1,5 +1,7 @@
 @import url("../../../../../var.css");
 .container {
+  display: flex;
+  flex-direction: column;
   width: 50%;
   text-align: left;
   margin: auto;
@@ -82,7 +84,6 @@ span {
   border: 1px solid var(--border-line);
   color: var(--button-txt);
 }
-
 .btn_social {
   width: 48px;
   height: 48px;
@@ -105,4 +106,10 @@ span {
   font-weight: 400;
   font-family: "Manrope";
   color: var(--main-txt-color);
+}
+@media screen and (max-width: 1440px) {
+  .block1,
+  .block2 {
+    gap: 10px;
+  }
 }

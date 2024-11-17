@@ -35,7 +35,7 @@
   color: var(--h2);
 }
 .block3_el1 {
-  width: 25%;
+  width: 30%;
   font-family: "Manrope";
   font-size: 58px;
   font-weight: 600;
@@ -51,4 +51,5 @@
 .block3_el {
   display: flex;
   text-align: center;
+  gap: 10px;
 }

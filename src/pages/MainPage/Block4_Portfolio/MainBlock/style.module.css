@@ -68,3 +68,8 @@ span {
   font-weight: 500;
   font-family: "Manrope";
 }
+@media screen and (max-width: 1440px) {
+  .block1_left {
+    width: 50%;
+  }
+}

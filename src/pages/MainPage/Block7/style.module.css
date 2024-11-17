@@ -14,3 +14,12 @@
   color: var(--button-bg);
   text-align: right;
 }
+@media screen and (max-width: 1440px) {
+  .container {
+    width: 100%;
+    margin: 100px 0px 0px 0px;
+  }
+  .block1 {
+    font-size: 169px;
+  }
+}

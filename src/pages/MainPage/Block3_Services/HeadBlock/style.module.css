@@ -8,14 +8,16 @@
   border-bottom: 1px solid var(--border-line);
 }
 .block1 {
+  display: flex;
+  flex-direction: column;
   width: 50%;
   text-align: left;
 }
 .block2 {
-  width: 25%;
-  height: 82px;
   display: flex;
   justify-content: space-between;
+  width: 25%;
+  height: 82px;
   margin: auto 0;
 }
 .block1_el1 {
@@ -53,7 +55,7 @@
   gap: 10px;
 }
 .block2_el2 {
-  width: 40%;
+  width: 30%;
   margin: auto;
 }
 
@@ -72,4 +74,15 @@
   font-weight: 500;
   line-height: 27px;
   font-family: "Manrope";
+}
+@media screen and (max-width: 1440px) {
+  .block1_el2 {
+    font-size: 48px;
+  }
+  .block1 {
+    width: 60%;
+  }
+  .block2 {
+    width: 35%;
+  }
 }

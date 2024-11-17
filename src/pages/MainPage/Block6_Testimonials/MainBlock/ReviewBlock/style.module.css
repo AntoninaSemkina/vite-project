@@ -19,6 +19,7 @@
 .box1_el1 {
   display: flex;
   flex-direction: column; /* Разместить элементы в строку */
+  width: 100%;
   gap: 10px; /* Отступ между name и location */
   margin: 20px;
 }
@@ -54,4 +55,9 @@ span {
   font-weight: 500;
   font-family: "Manrope";
   color: var(--h2);
+}
+@media screen and (max-width: 1440px) {
+  .box1 {
+    width: 90%;
+  }
 }

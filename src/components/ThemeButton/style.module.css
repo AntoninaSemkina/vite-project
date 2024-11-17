@@ -1,7 +1,7 @@
 @import url("../../var.css");
 
 .themeToggleButton {
-  position: absolute;
+  display: fixed;
   background-color: var(--violet-dark);
   border-radius: 10px;
   width: 80px;
@@ -12,4 +12,11 @@
   border: 1px solid var(--border-line);
   z-index: 1;
   cursor: pointer;
+  top: 10px;
+}
+@media screen and (max-width: 1440px) {
+  .themeToggleButton {
+    width: 60px;
+    height: 60px;
+  }
 }

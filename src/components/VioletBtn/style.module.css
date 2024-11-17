@@ -12,3 +12,9 @@
 .img {
   width: 25%;
 }
+@media screen and (max-width: 1440px) {
+  .btn {
+    width: 100px;
+    height: 60px;
+  }
+}

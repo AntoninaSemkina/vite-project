@@ -9,6 +9,7 @@
   margin: auto;
 }
 .block1 {
+  width: 100%;
   font-family: "Manrope";
   font-size: 20px;
   font-weight: 600;
@@ -39,4 +40,24 @@
 .block2_el {
   width: 25%;
   display: flex;
+}
+@media screen and (max-width: 1440px) {
+  .container {
+    height: 350px;
+    margin: 0;
+    width: 40%;
+  }
+  .block1 {
+    font-size: 16px;
+    padding: 20px 20px;
+  }
+  .block2_el1 {
+    font-size: 48px;
+  }
+  .block2_el3 {
+    font-size: 48px;
+  }
+  .block2 {
+    padding: 20px 20px;
+  }
 }

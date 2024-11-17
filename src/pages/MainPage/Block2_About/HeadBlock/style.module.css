@@ -8,10 +8,13 @@
   border-bottom: 1px solid var(--border-line);
 }
 .block1 {
-  width: 50%;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
   text-align: left;
 }
 .block2 {
+  display: flex;
   width: 10%;
   margin: auto 0; /* разместить по середине высоты контейнера */
 }
@@ -42,4 +45,9 @@
   font-weight: 500;
   line-height: 27px;
   font-family: "Manrope";
+}
+@media screen and (max-width: 1440px) {
+  .block1_el2 {
+    font-size: 48px;
+  }
 }

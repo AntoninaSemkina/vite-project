@@ -29,5 +29,10 @@
   font-weight: 400;
   font-family: "Manrope";
   color: var(--block-title-grey);
-  margin: 20px;
+  margin: 20px auto;
+}
+@media screen and (max-width: 1440px) {
+  .container1 {
+    height: 350px;
+  }
 }

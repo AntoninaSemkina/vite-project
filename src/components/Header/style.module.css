@@ -11,8 +11,8 @@
   border-left: 1px solid var(--border-line);
   border-right: 1px solid var(--border-line);
 }
-.container2 {
-  display: flex;
-  position: absolute;
-  right: 0;
+@media screen and (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
 }

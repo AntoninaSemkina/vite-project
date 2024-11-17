@@ -94,3 +94,21 @@ span {
   border: 1px solid var(--border-line);
   border-radius: 10px;
 }
+@media screen and (max-width: 1440px) {
+  .container {
+    gap: 20px;
+  }
+  .block1_el1 {
+    font-size: 34px;
+  }
+  .block1_el2 {
+    font-size: 16px;
+  }
+  .item {
+    font-size: 16px;
+    padding: 5px;
+  }
+  .block2 {
+    gap: 10px;
+  }
+}
