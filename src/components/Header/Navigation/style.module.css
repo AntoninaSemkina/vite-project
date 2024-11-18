@@ -3,6 +3,7 @@
 .container {
   display: flex;
   font-family: "Manrope";
+  position: relative;
 }
 .btn1,
 .btn2,
@@ -24,4 +25,10 @@
 }
 .btn4 {
   border-radius: 0px 10px 0px 0px;
+}
+
+@media screen and (max-width: 390px) {
+  .container {
+    display: none;
+  }
 }

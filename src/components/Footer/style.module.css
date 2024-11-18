@@ -3,6 +3,7 @@
 .container1 {
   width: 100%;
   display: flex;
+  flex-direction: row;
   margin: auto;
   border: 1px solid var(--border-line);
   height: 450px;
@@ -11,10 +12,13 @@
 .container2 {
   width: 90%;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   margin: 20px auto;
 }
-
+.container3 {
+  margin: auto;
+}
 .copyright {
   text-align: center;
   font-size: 14px;
@@ -34,5 +38,19 @@
 @media screen and (max-width: 1440px) {
   .container1 {
     height: 350px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .container2 {
+    width: 100%;
+    flex-direction: column;
+    margin: auto;
+  }
+  .container1 {
+    width: 90%;
+    flex-direction: column;
+    margin: auto;
+    height: 703px;
+    border: 1px solid var(--border-line);
   }
 }

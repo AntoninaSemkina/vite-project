@@ -49,6 +49,7 @@
   }
   .block1 {
     font-size: 16px;
+
     padding: 20px 20px;
   }
   .block2_el1 {
@@ -59,5 +60,26 @@
   }
   .block2 {
     padding: 20px 20px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .container {
+    height: 210px;
+    width: 100%;
+    border: 1px solid var(--border-line);
+  }
+  .block1 {
+    font-size: 14px;
+  }
+  .block2_el1 {
+    padding-top: 10px;
+    font-size: 28px;
+  }
+  .block2_el3 {
+    font-size: 28px;
+  }
+  .block2 {
+    width: 100%;
   }
 }

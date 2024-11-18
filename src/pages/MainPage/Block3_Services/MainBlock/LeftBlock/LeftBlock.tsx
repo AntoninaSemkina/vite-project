@@ -22,26 +22,26 @@ const LeftBlock: React.FC = () => {
       <div className={style.block2}>
         <div className={style.block2_el1}>Services Highlights</div>
         <div className={style.block2_el2}>
+          <img className={style.icon} src={Vector_grey} alt="greyStar" />
           <span className={style.item}>
-            <img className={style.icon} src={Vector_grey} alt="greyStar" />
             COVERAGE FOR WEDDINGS, PARTIES, CORPORATE FUNCTIONS, AND MORE.
           </span>
         </div>
         <div className={style.block2_el3}>
+          <img className={style.icon} src={Vector_grey} alt="greyStar" />
           <span className={style.item}>
-            <img className={style.icon} src={Vector_grey} alt="greyStar" />
             SKILLED PHOTOGRAPHERS WHO KNOW HOW TO SEIZE THE MOMENT.
           </span>
         </div>
         <div className={style.block2_el4}>
+          <img className={style.icon} src={Vector_grey} alt="greyStar" />
           <span className={style.item}>
-            <img className={style.icon} src={Vector_grey} alt="greyStar" />A MIX
-            OF CANDID AND POSED SHOTS FOR A COMPREHENSIVE STORY.
+            A MIX OF CANDID AND POSED SHOTS FOR A COMPREHENSIVE STORY.
           </span>
         </div>
         <div className={style.block2_el5}>
+          <img className={style.icon} src={Vector_grey} alt="greyStar" />
           <span className={style.item}>
-            <img className={style.icon} src={Vector_grey} alt="greyStar" />
             QUICK TURNAROUND FOR YOU TO RELIVE THE DAY'S HIGHLIGHTS.
           </span>
         </div>

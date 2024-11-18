@@ -51,3 +51,14 @@ span {
     transform: translateX(-50%);
   }
 }
+
+@media screen and (max-width: 390px) {
+  .item {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 10px 0px 10px 10px;
+  }
+  .container {
+    gap: 10px;
+  }
+}

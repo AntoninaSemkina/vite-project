@@ -86,3 +86,19 @@
     width: 90%;
   }
 }
+@media screen and (max-width: 390px) {
+  .rightContainer {
+    display: none;
+  }
+  .leftContainer {
+    width: 100%;
+    border-right: none;
+  }
+  .info {
+    width: 100%;
+  }
+  .btn {
+    width: 76px;
+    height: 38px;
+  }
+}

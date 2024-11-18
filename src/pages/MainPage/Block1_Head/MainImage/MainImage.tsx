@@ -1,11 +1,11 @@
 import React from "react";
 import MainPage from "../../../../images/MainPage.png";
-import "./style.module.css";
+import style from "./style.module.css";
 
 const MainImage = () => {
   return (
     <div>
-      <img src={MainPage} alt="Portraits" />
+      <img className={style.img} src={MainPage} alt="Portraits" />
     </div>
   );
 };

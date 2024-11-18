@@ -53,6 +53,7 @@ span {
 .block2_el2 {
   width: 100%;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   gap: 20px;
 }
@@ -111,5 +112,40 @@ span {
   .block1,
   .block2 {
     gap: 10px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .container {
+    width: 100%;
+  }
+  .block2_el2 {
+    flex-direction: column;
+  }
+  .block2_el2_mail,
+  .block2_el2_phone {
+    width: 100%;
+    font-size: 16px;
+  }
+  .block1_el1 {
+    font-size: 20px;
+  }
+  .block1_el2 {
+    font-size: 14px;
+  }
+  .block2_el3 {
+    flex-direction: column;
+  }
+  .block2_el3_btn1,
+  .block2_el3_btn2 {
+    width: 100%;
+    height: 60px;
+    font-size: 14px;
+  }
+  .span {
+    font-size: 20px;
+  }
+  .iconStars {
+    width: 24px;
+    height: 24px;
   }
 }

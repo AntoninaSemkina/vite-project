@@ -34,3 +34,21 @@
   width: 50%;
   height: 50%;
 }
+@media screen and (max-width: 1440px) {
+  .container {
+    width: 160px;
+  }
+  .a_social {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .container {
+    width: 160px;
+  }
+  .a_social {
+    width: 40px;
+    height: 40px;
+  }
+}

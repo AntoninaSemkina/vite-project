@@ -11,8 +11,21 @@
   border-left: 1px solid var(--border-line);
   border-right: 1px solid var(--border-line);
 }
+
+.navContainer {
+  display: flex;
+}
 @media screen and (max-width: 1440px) {
   .container {
     width: 90%;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .navContainer .Navigation {
+    display: none;
+  }
+  .navContainer .BurgerMenu {
+    display: block;
   }
 }

@@ -1,19 +1,12 @@
 @import url("../../../../../var.css");
+
 .container {
   width: 50%;
   display: flex;
   flex-direction: column;
   gap: 50px;
   margin: auto;
-}
-.btn {
-  background-color: var(--violet-dark_);
-  border-radius: 100px;
-  width: 130px;
-  height: 66px;
-  margin: 10px 10px 10px 10px;
-  box-shadow: 4px 4px 17.4px 0px #ffffff47 inset;
-  border: 1px solid var(--border-line);
+  order: 1;
 }
 .img {
   width: 25%;
@@ -51,10 +44,6 @@
   display: flex;
   flex-direction: row;
 }
-span {
-  display: inline-block;
-}
-
 .icon {
   width: 40px;
   height: 40px;
@@ -70,13 +59,11 @@ span {
   animation: marquee 20s linear infinite;
 }
 .item {
-  flex: 0 0 auto;
   font-family: "Manrope";
   border-radius: 6px;
   font-size: 18px;
   font-weight: 400;
   color: var(--main-txt-color);
-  margin: auto;
   padding: 10px;
   gap: 10px;
 }
@@ -91,6 +78,9 @@ span {
 .block2_el3,
 .block2_el4,
 .block2_el5 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
   border: 1px solid var(--border-line);
   border-radius: 10px;
 }
@@ -106,6 +96,24 @@ span {
   }
   .item {
     font-size: 16px;
+    padding: 5px;
+  }
+  .block2 {
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .container {
+    width: 100%;
+    order: 2;
+    gap: 20px;
+  }
+  .block1_el1 {
+    font-size: 28px;
+    margin: 0;
+  }
+  .item {
+    font-size: 14px;
     padding: 5px;
   }
   .block2 {

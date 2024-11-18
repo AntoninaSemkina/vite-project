@@ -20,7 +20,7 @@ const Header: React.FC = () => {
           <button className={style.btn1}>Terms&Conditions</button>
           <button className={style.btn2}>Privacy Policy</button>
         </div>
-        <div>
+        <div className={style.container3}>
           <SocialMedia />
         </div>
         <div className={style.copyright}>

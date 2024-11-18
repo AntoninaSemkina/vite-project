@@ -18,3 +18,9 @@
     height: 60px;
   }
 }
+@media screen and (max-width: 390px) {
+  .btn {
+    width: 80px;
+    height: 48px;
+  }
+}

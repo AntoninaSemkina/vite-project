@@ -23,3 +23,11 @@
     font-size: 169px;
   }
 }
+@media screen and (max-width: 390px) {
+  .container {
+    margin: 100px 0px 0px 0px;
+  }
+  .block1 {
+    font-size: 63px;
+  }
+}
