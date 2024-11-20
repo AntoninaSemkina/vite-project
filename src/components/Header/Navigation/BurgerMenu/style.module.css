@@ -1,6 +1,6 @@
 @import url("../../../../var.css");
 
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 1930px) {
   .burger_input {
     display: none;
   }
