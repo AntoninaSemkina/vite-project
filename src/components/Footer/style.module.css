@@ -34,6 +34,7 @@
   font-family: "Manrope";
   color: var(--block-title-grey);
   margin: 20px auto;
+  cursor: pointer;
 }
 @media screen and (max-width: 1440px) {
   .container1 {

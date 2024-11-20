@@ -65,6 +65,7 @@
     rgba(47, 47, 55, 0) 76.42%
   );
   gap: 10px;
+  cursor: pointer;
 }
 .icon {
   width: 24px;

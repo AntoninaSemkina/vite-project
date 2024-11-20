@@ -51,6 +51,7 @@
   border: 1px solid var(--border-line);
   background: var(--button-bg);
   margin: auto;
+  cursor: pointer;
 }
 .arrow {
   width: 34px;
@@ -84,6 +85,7 @@
   font-weight: 500;
   line-height: 27px;
   font-family: "Manrope";
+  cursor: pointer;
 }
 @media screen and (max-width: 1440px) {
   .block1_el2 {

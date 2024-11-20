@@ -84,6 +84,7 @@ span {
   font-family: "Manrope";
   border: 1px solid var(--border-line);
   color: var(--button-txt);
+  cursor: pointer;
 }
 .btn_social {
   width: 48px;
@@ -91,6 +92,7 @@ span {
   border-radius: 50%;
   background-color: var(--button-bg);
   border: 1px solid var(--border-line);
+  cursor: pointer;
 }
 .icon_social {
   width: 20px;

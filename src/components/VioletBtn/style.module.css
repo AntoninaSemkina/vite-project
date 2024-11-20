@@ -8,6 +8,7 @@
   margin: 10px 10px 10px 10px;
   box-shadow: 4px 4px 17.4px 0px #ffffff47 inset;
   border: 1px solid var(--border-line);
+  cursor: pointer;
 }
 .img {
   width: 25%;

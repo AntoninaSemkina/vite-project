@@ -18,6 +18,7 @@
   font-family: "Manrope";
   border: 1px solid var(--border-line);
   color: var(--main-txt-color);
+  cursor: pointer;
 }
 .btn1 {
   border-radius: 10px 0px 0px 0px;

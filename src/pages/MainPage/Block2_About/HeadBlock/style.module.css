@@ -46,6 +46,7 @@
   font-weight: 500;
   line-height: 27px;
   font-family: "Manrope";
+  cursor: pointer;
 }
 @media screen and (max-width: 1440px) {
   .block1_el2 {

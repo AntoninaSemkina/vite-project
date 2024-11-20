@@ -47,6 +47,7 @@
   border: 1px solid var(--border-line);
   background-color: var(--main-bg-color);
   margin: 15px;
+  cursor: pointer;
 }
 .span {
   font-size: 20px;

@@ -15,6 +15,7 @@
   line-height: 27px;
   font-family: "Manrope";
   margin-top: 10px;
+  cursor: pointer;
 }
 @media screen and (max-width: 390px) {
   .btn {

@@ -118,6 +118,7 @@ span {
     border: 1px solid var(--border-line);
     background: var(--button-bg);
     margin: auto;
+    cursor: pointer;
   }
   .arrow {
     width: 28px;
