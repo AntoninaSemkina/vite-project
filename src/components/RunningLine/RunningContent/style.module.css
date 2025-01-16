@@ -8,6 +8,7 @@
   line-height: 1;
   text-transform: uppercase;
   overflow: hidden;
+  white-space: nowrap;
   width: 100%;
   background-color: var(--button-bg);
   gap: 20px;
@@ -22,15 +23,19 @@ span {
   margin-right: 10px;
   margin-left: 10px;
   vertical-align: middle;
+  margin-right: 0.5rem;
 }
 .itemsMarquee {
   flex-shrink: 0;
-  display: flex;
+  display: inline-flex;
+  animation: scroll 20s linear infinite;
   justify-content: space-between;
   width: 100%;
-  animation: marquee 20s linear infinite;
 }
 .item {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 2rem;
   flex: 0 0 auto;
   border-radius: 6px;
   font-size: 27px;
@@ -43,9 +48,9 @@ span {
   transform: scale(1);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-@keyframes marquee {
+@keyframes scroll {
   0% {
-    transform: translateX(0%);
+    transform: translateX(0);
   }
   100% {
     transform: translateX(-50%);

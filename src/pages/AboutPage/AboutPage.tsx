@@ -1,12 +1,15 @@
 import React from "react";
 import Header from "../../components/Header/Header";
-const AboutPage = () => {
+import style from "./style.module.css";
+import Footer from "../../components/Footer/Footer";
+
+const MainPage: React.FC = () => {
   return (
-    <div>
+    <div className={style.container}>
       <Header />
-      about page
+      <Footer />
     </div>
   );
 };
 
-export default AboutPage;
+export default MainPage;

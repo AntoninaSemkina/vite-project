@@ -1,43 +1,23 @@
 import React from "react";
 import style from "./style.module.css";
-import Vector from "../../../images/Vector.png";
+import { categories } from "./data";
 
+export interface Category {
+  id: number;
+  img: string;
+  text: string;
+}
 const RunningContent: React.FC = () => {
+  const items = [...categories, ...categories];
+
   return (
     <div className={style.container}>
       <div className={style.itemsMarquee}>
-        {/* Дублирование для непрерывной прокрутки */}
-        {[...Array(2)].map((_, index) => (
-          <div key={index}>
-            <span className={style.item}>
-              <img className={style.img} src={Vector} alt="icon" />
-              EVENT PHOTOGRAPHY
-            </span>
-            <span className={style.item}>
-              <img className={style.img} src={Vector} alt="icon" />
-              COMMERCIAL PHOTOGRAPHY
-            </span>
-            <span className={style.item}>
-              <img className={style.img} src={Vector} alt="icon" />
-              PRODUCT PHOTOGRAPHY
-            </span>
-            <span className={style.item}>
-              <img className={style.img} src={Vector} alt="icon" />
-              WEDDING PHOTOGRAPHY
-            </span>
-            <span className={style.item}>
-              <img className={style.img} src={Vector} alt="icon" />
-              LANDSCAPE PHOTOGRAPHY
-            </span>
-            <span className={style.item}>
-              <img className={style.img} src={Vector} alt="icon" />
-              BRANDING PHOTOGRAPHY
-            </span>
-            <span className={style.item}>
-              <img className={style.img} src={Vector} alt="icon" />
-              PORTRAIT PHOTOGRAPHY
-            </span>
-          </div>
+        {items.map((item, index) => (
+          <span key={index} className={style.item}>
+            <img className={style.img} src={item.img} alt="icon" />
+            {item.text}
+          </span>
         ))}
       </div>
     </div>
