@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import MainPage from "../../../../images/MainPage.png";
 import style from "./style.module.css";
 
